@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main_div {
+  background-color: skyblue;
+  width: 100%;
+  height: 100vh;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
+}
+.center_div {
+  width: 25%;
+  height: 80vh;
+  background-color: white;
+  color: lightsalmon;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+h1 {
   color: white;
+  background: transparent;
+  background-color: lightsalmon;
+  color: white;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px -15px 5px rgba(0, 0, 0, 0.3);
 }
-
-.App-link {
-  color: #61dafb;
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: white;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px soliddarkorchid;
+  outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.b1 {
+  min-height: 16px;
+  min-width: 16px;
+  background-color: lightsalmon;
+  color: white;
+  width: 40px;
+  border-radius: 50%;
+  /* padding: 0 6px; */
+  border-color: transparent;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.b1:hover {
+  background-color: #4caf50;
+}
+ul {
+  margin-top: 30px;
+}
+ul li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: lightsalmon;
+  text-transform: capitalize;
 }
