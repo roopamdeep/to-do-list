@@ -22,14 +22,14 @@
   width: 25%;
   height: 80vh;
   background-color: white;
-  color: lightsalmon;
+  color: plum;
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
 }
 h1 {
   color: white;
   background: transparent;
-  background-color: lightsalmon;
+  background-color: plum;
   color: white;
   padding: 6px 0 2px 0;
   margin-bottom: 10px;
@@ -50,7 +50,7 @@ input {
 .b1 {
   min-height: 16px;
   min-width: 16px;
-  background-color: lightsalmon;
+  background-color: plum;
   color: white;
   width: 40px;
   border-radius: 50%;
@@ -76,6 +76,6 @@ ul li {
   min-height: 40px;
   display: flex;
   align-items: center;
-  color: lightsalmon;
+  color: plum;
   text-transform: capitalize;
 }
